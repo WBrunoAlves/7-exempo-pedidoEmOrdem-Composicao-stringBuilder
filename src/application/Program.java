@@ -30,11 +30,11 @@ public class Program {
 		
 		//instanciar o objeto client
 		Client client = new Client(name, email, birthDate);
-		
+		/*nova*/
 		System.out.println("Enter order data: ");
 		System.out.println("Status: ");
 		
-		//instanciar o objeto ENUMS status , ultiliza o método valueOf 
+		//instanciar o objeto ENUMS status , ultiliza o mï¿½todo valueOf 
 		OrderStatus status = OrderStatus.valueOf(sc.next());
 		
 		//intanciar o objeto order POIS JA TENHO O DATE O STATUS E OS ATRIBUTOS DO OBJETO CLIENT
